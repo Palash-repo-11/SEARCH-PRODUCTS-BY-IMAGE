@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px;
+}
+
+div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+label[for="optionSelect"] {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input[type="text"] {
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select#optionSelect {
+    font-size: 20px;
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.list-container {
+    margin-top: 30px;
+}
+
+.list-item {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    object-fit: cover;
+}
+
+.list-item span {
+    flex: 1;
+    font-size: 20px;
+    white-space: nowrap; 
+    overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.list-item button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.list-item button:hover {
+    background-color: #c82333;
+}
